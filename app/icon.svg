@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Shepherd's Desk">
+  <rect width="64" height="64" rx="14" fill="#25231f"/>
+  <!-- "//" : two tablets of the law, leaning like slashes -->
+  <path d="M-5 0V-29a5 5 0 0 1 10 0V0Z" fill="#f5f1e8" transform="translate(16.5 48) rotate(18)"/>
+  <path d="M-5 0V-29a5 5 0 0 1 10 0V0Z" fill="#f5f1e8" transform="translate(29.5 48) rotate(18)"/>
+  <!-- "|" : the shepherd's staff -->
+  <path d="M50 48V16" stroke="#d9a066" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "name": "shepherds-desk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:lan": "next dev --hostname 0.0.0.0",
+    "dev:clean": "node -e \"require('fs').rmSync('.next',{recursive:true,force:true})\" && next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "start:lan": "next start --hostname 0.0.0.0",
+    "lint": "eslint .",
+    "ingest:public-bible": "tsx scripts/ingest-public-bible.ts",
+    "ingest:dictionary": "tsx scripts/ingest-legacy-dictionary.ts",
+    "ingest:dictionaries": "tsx scripts/ingest-bible-dictionaries.ts",
+    "ingest:isbe": "tsx scripts/ingest-isbe.ts",
+    "ingest:stepbible": "tsx scripts/ingest-stepbible.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.55.0",
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "^15.4.6",
+    "typescript": "^5.8.3",
+    "tsx": "^4.20.3"
+  }
+}
